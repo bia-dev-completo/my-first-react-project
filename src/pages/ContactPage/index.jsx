@@ -28,7 +28,7 @@ const ContactPage = () => {
             <a href="https://www.linkedin.com/in/beatriz-schwartz/" target="_blank" rel="noopener noreferrer">
               <img src={LinkedInIcon} alt="LinkedIn icon"/>
             </a>
-            <a href="https://www.instagram.com/bia.codes/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/xuartis/" target="_blank" rel="noopener noreferrer">
               <img src={InstagramIcon} alt="Instagram icon"/>
             </a>
             <a href="https://github.com/beatrizsabbatini" target="_blank" rel="noopener noreferrer">
