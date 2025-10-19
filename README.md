@@ -1,16 +1,83 @@
-# React + Vite
+# Meu Primeiro Projeto React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o projeto de exemplo usado nas aulas introdutórias de React da **Comunidade Dev Completo**! 🚀
 
-Currently, two official plugins are available:
+## 📋 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto é um portfólio pessoal desenvolvido em React, criado para demonstrar os conceitos fundamentais do React durante as aulas da Comunidade Dev Completo. O projeto inclui:
 
-## React Compiler
+- **Componentes funcionais** com hooks (useState, useEffect)
+- **Estrutura organizada** com páginas e componentes reutilizáveis
+- **Gerenciamento de estado** e simulação de operações assíncronas
+- **Assets organizados** (ícones e imagens)
+- **Estilização CSS** responsiva
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+- **React** - Biblioteca para interfaces de usuário
+- **Vite** - Build tool e servidor de desenvolvimento
+- **CSS3** - Estilização e layout responsivo
+- **JavaScript ES6+** - Lógica da aplicação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Como Executar o Projeto
+
+### Pré-requisitos
+- Node.js instalado (versão 16 ou superior)
+- npm ou yarn
+
+### Instalação
+
+1. **Clone o repositório:**
+```bash
+git clone https://github.com/bia-dev-completo/my-first-react-project.git
+cd my-first-react-project
+```
+
+2. **Instale as dependências:**
+```bash
+npm install
+```
+
+3. **Execute o projeto:**
+```bash
+npm run dev
+```
+
+4. **Acesse no navegador:**
+```
+http://localhost:5173
+```
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── components/
+│   ├── Button/          # Componente de botão reutilizável
+│   └── NavBar/          # Barra de navegação
+├── pages/
+│   ├── HomePage/        # Página inicial
+│   ├── AboutPage/       # Página sobre
+│   ├── SkillsPage/      # Página de habilidades
+│   └── ContactPage/     # Página de contato
+├── assets/
+│   └── icons/           # Ícones da aplicação
+└── App.jsx              # Componente principal
+```
+
+## 🎯 Funcionalidades Demonstradas
+
+- **useState** - Gerenciamento de estado local
+- **useEffect** - Efeitos colaterais e ciclo de vida
+- **Componentes funcionais** - Arquitetura moderna do React
+- **Props e children** - Comunicação entre componentes
+- **Simulação de loading** - Operações assíncronas
+- **Estrutura de pastas** - Organização de código
+
+## 📚 Comunidade Dev Completo
+
+Este projeto faz parte do material didático da **Comunidade Dev Completo**, onde você pode aprender React do zero até o avançado!
+
+---
+
+**Desenvolvido com ❤️ pela Comunidade Dev Completo**
